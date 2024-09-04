@@ -45,10 +45,10 @@
   }
 
   .select__multi-value__label{
-    @apply text-xs bg-primary text-primary-foreground rounded-none rounded-l;
+    @apply text-xs bg-primary text-primary-foreground rounded-none ltr:rounded-l rtl:rounded-r;
   }
   .select__multi-value__remove{
-    @apply bg-primary rounded-none rounded-r;
+    @apply bg-primary rounded-none ltr:rounded-r rtl:rounded-l;
     svg{
       @apply fill-primary-foreground; 
     }
